@@ -1,0 +1,49 @@
+# Add guidance to help people answer the question ('detailed guidance')
+
+## Status
+
+Date created: *2023-11-06*  
+
+Epic trello card: https://trello.com/c/I8HETm57/1041-design-the-early-access-upgrade-mou-journey-ready-for-user-research
+Figma working board: https://www.figma.com/file/pCN39S9tIDlgicZ05Nj47J/Early-Access?type=design&node-id=337%3A3586&mode=design&t=fOXVGicWYVqTcfL8-1
+
+## Contents
+
+- [Early access journey)](#early-access journey)
+  - [Status](#status)
+  - [Contents](#contents)
+  - [What](#what)
+  - [Why](#why)
+  - [Hypothesis](#hypothesis)
+
+___
+
+<br>
+
+## What
+
+This is a journey outlining how users access to 
+
+### User stories
+
+**As a trial user**, I need to know what are the criteria to become an editor
+**As a trial user**, As a trial user I need to let the Forms team know my organisation. 
+**As a trial user**, I need to know whether someone has agreed to the MOU in my organisation 
+
+
+<br>
+
+## Why
+
+Currently we do not have any way where trial users can request to become an editor and publish their form. With this journey, users can create a trial account and understand if they can upgrade to editor and how to do that. It will also automate a lot of things the adoption team would have to do otherwise, and take us a step closer to self service.
+
+
+We believe that by creating an earlya access journey we will be able to help users request editor and sign the MOU process.
+
+<br>
+
+___
+
+<br>
+
+[Back to the top]
