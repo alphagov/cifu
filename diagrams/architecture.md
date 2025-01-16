@@ -49,6 +49,8 @@ graph TD
 
         processor((form<br>processor))
 
+        integrator((systems<br>integrator))
+
         integration -..-> case
         inbox --> processor --> case
         %%inbox-.->rpa-.->case
@@ -61,7 +63,7 @@ graph TD
     email[/submitted<br/>form/]
     data[/structured<br/>data/]
 
-class integration,data optional
+class integration,integrator,data optional
 
     user -- browse --> gov.uk -- links to --> forms --> notify -. optional .-> confirmation -.-> user
 
@@ -71,8 +73,12 @@ class integration,data optional
 
     forms -. being investigated .-> data  -.-> integration
 
+    integration ~~~ integrator
+
+    integrator -.builds and maintains .-> integration
+
     forms -. optional link to .-> pay
 
-    class user,processor user
+    class user,processor,integrator user
 
 ```
